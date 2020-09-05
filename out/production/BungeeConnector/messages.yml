@@ -1,0 +1,13 @@
+COMMAND_USAGE: '&cUsage: {0}'
+INVALID_LOCATION: '&cCouldn''t find a sign or an entity with a custom name nearby.'
+CREATE_INSTRUCTIONS: '&aPlease hit a block or an entity to make it a connector.'
+CREATE_SUCCEED: '&aSuccessfully created a connector to {0}.'
+REMOVE_INSTRUCTIONS: '&aPlease hit a block or an entity to remove it as a connector.'
+REMOVE_SUCCEED: '&aSuccessfully removed this connector.'
+REMOVE_ALL_SUCCEED: '&aSuccessfully removed all of the connector.'
+REMOVE_SERVER_SUCCEED: '&aSuccessfully removed all of the connector to {0}.'
+COMMAND_HELP: |-
+  &aBungeeConnectors Command List:
+  &a- /bungeeconnectors create <server-name> - Creates a new connector (entity or block)
+  &a- /bungeeconnectors remove [server-name OR -a] - Removes an exists connector
+NO_PERMISSION: '&fUnknown command. Type "/help" for help.'

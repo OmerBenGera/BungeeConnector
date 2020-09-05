@@ -1,0 +1,21 @@
+name: BungeeConnector
+version: 1.0.1
+main: com.ome_r.bungeeconnector.BungeeConnector
+author: [OmerBenGera]
+commands:
+  bungeeconnector:
+    description: Usage of BungeeConnector.
+    aliases: [bungeec]
+permissions:
+  bungeeconnector.*:
+    description: Gives access to all bungeeconnector commands
+    children:
+      bungeeconnector.create: true
+      bungeeconnector.remove: true
+      bungeeconnector.use: true
+  bungeeconnector.create:
+    description: Gives access to create sub-command
+  bungeeconnector.remove:
+    description: Gives access to remove sub-command
+  bungeeconnector.use:
+    description: Gives access to bungeeconnector usage command
